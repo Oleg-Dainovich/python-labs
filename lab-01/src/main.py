@@ -2,12 +2,12 @@ from functions import *
 
 print("Hello, World!")
 
-first_num = input()
-second_num = input()
+first_num = float(input())
+second_num = float(input())
 operation = input()
 try:
-    calculator_method (first_num, second_num, operation)
+    print(calculator_method (first_num, second_num, operation))
 except ZeroDivisionError:
     print("Division by zero!")
 
-find_even_numbers()
+print(find_even_numbers())

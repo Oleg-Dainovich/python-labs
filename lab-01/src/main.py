@@ -10,4 +10,4 @@ try:
 except ZeroDivisionError:
     print("Division by zero!")
 
-print(find_even_numbers())
+find_even_numbers()

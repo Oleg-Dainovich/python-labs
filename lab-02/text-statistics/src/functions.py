@@ -12,17 +12,16 @@ ABBREVIATIONS = (
 def replace_abbreviations(text: str):
     new_text = text
     for abbreviation in ABBREVIATIONS:
-        new_text = re.sub(abbreviation, re.sub(r'\.', " ", abbreviation), new_text)
+        new_text = re.sub(abbreviation, re.sub(r'\.', " ", abbreviation), new_text)     #remove dots
     return new_text
 
 def find_words(text: str):
     words_list = re.findall(r'\w*[a-zA-Z]\w*', text)
-    new_text = "".join(words_list)
+    new_text = " ".join(words_list)
     return new_text
 
 def count_sentences(text: str):
     new_text = replace_abbreviations(text)
-    print(new_text)
     reg_expr = r'(\.|\?|!)+'
     return len(re.findall(reg_expr, new_text))
 
@@ -34,14 +33,18 @@ def count_non_declarative_sentences(text: str):
 def count_length_of_sentences(text: str):
     new_text = replace_abbreviations(text)
     print(new_text)
-    #new_text = find_words(new_text)
-    #print(new_text)
+    new_text = find_words(new_text)
+    print(new_text)
     reg_expr = r'(\w)+'
     return len(re.findall(reg_expr, new_text)) / count_sentences(text)
 
 def count_length_of_words(text: str):
+    new_text = replace_abbreviations(text)
+    new_text = find_words(new_text)
     reg_expr_letters = r'\w'
     reg_expr_words = r'(\w)+'
     return len(re.findall(reg_expr_letters, text)) / len(re.findall(reg_expr_words, text))
 
 #def count_n_grams():
+
+#    return

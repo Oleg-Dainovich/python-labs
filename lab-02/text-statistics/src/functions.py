@@ -12,19 +12,19 @@ ABBREVIATIONS = (
 def replace_abbreviations(text: str):
     new_text = text
     for abbreviation in ABBREVIATIONS:
-        #reg_expr = r"abbreviation"
         new_text = re.sub(abbreviation, 'word', new_text)
     return new_text
 
 def count_sentences(text: str):
     new_text = replace_abbreviations(text)
     reg_expr = r'(\.|\?|!)+'
-    print(new_text)
     return len(re.findall(reg_expr, new_text))
 
 def count_non_declarative_sentences(text: str):
     reg_expr = r'\.+'
     return count_sentences(text) - len(re.findall(reg_expr, text))
-
-#def count_length_of_sentence(text: str):
-
+ 
+def count_length_of_sentences(text: str):
+    new_text = replace_abbreviations(text)
+    reg_expr = r'(\w)+'
+    return len(re.findall(reg_expr, new_text)) / count_sentences(text)

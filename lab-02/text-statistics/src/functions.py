@@ -21,10 +21,16 @@ def count_sentences(text: str):
     return len(re.findall(reg_expr, new_text))
 
 def count_non_declarative_sentences(text: str):
+    new_text = replace_abbreviations(text)
     reg_expr = r'\.+'
-    return count_sentences(text) - len(re.findall(reg_expr, text))
+    return count_sentences(text) - len(re.findall(reg_expr, new_text))
  
 def count_length_of_sentences(text: str):
     new_text = replace_abbreviations(text)
     reg_expr = r'(\w)+'
     return len(re.findall(reg_expr, new_text)) / count_sentences(text)
+
+def count_length_of_words(text: str):
+    reg_expr_letters = r'\w'
+    reg_expr_words = r'(\w)+'
+    return len(re.findall(reg_expr_letters, text)) / len(re.findall(reg_expr_words, text))

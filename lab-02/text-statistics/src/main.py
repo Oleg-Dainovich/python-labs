@@ -14,5 +14,9 @@ print('Amount of non-declarative sentences in the text:', count_non_declarative_
 print('Average length of the sentence:', count_length_of_sentences(text))
 print('Average length of the word:', count_length_of_words(text))
 
-k, n = map(int, input('Enter K and N for N-grams: ').split())
-print_top_k_n_grams(text, k, n)
+try:
+    k, n = map(int, input('Enter K and N for N-grams: ').split())
+    print_top_k_n_grams(text, k, n)
+except ValueError:
+    print("Incorrect Input")
+    exit(1)

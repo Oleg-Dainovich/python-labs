@@ -38,14 +38,20 @@ def count_length_of_sentences(text: str):
     new_text = find_words(text)
     #print(new_text)
     reg_expr = r'(\w)+'
-    return len(re.findall(reg_expr, new_text)) / count_sentences(text)
+    try:
+        return len(re.findall(reg_expr, new_text)) / count_sentences(text)
+    except ZeroDivisionError:
+        return 0
 
 def count_length_of_words(text: str):
     #new_text = replace_abbreviations(text)
     new_text = find_words(text)
     reg_expr_letters = r'\w'
     reg_expr_words = r'(\w)+'
-    return len(re.findall(reg_expr_letters, new_text)) / len(re.findall(reg_expr_words, new_text))
+    try:
+        return len(re.findall(reg_expr_letters, new_text)) / len(re.findall(reg_expr_words, new_text))
+    except ZeroDivisionError:
+        return 0
 
 def get_n_grams(text: str, n: int):
     words_list = re.findall(r'\w*[a-zA-Z]\w*', text)

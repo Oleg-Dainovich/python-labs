@@ -1,5 +1,4 @@
 import re
-#from functools import reduce
 from collections import Counter
 
 ABBREVIATIONS = (
@@ -14,12 +13,12 @@ ABBREVIATIONS = (
 def replace_abbreviations(text: str):
     new_text = text
     for abbreviation in ABBREVIATIONS:
-        new_text = re.sub(abbreviation, re.sub(r'\.', " ", abbreviation), new_text)     #remove dots
+        new_text = re.sub(abbreviation, re.sub(r'\.', " ", abbreviation), new_text)     #change dots to spaces in abbreviations
     return new_text
 
 def find_words(text: str):
     words_list = re.findall(r'\w*[a-zA-Z]\w*', text)                                    #remove numbers and punctuation
-    new_text = " ".join(words_list)
+    new_text = " ".join(words_list)                                                     #join list to string
     return new_text
 
 def count_sentences(text: str):
@@ -41,7 +40,6 @@ def count_length_of_sentences(text: str):
         return 0
 
 def count_length_of_words(text: str):
-    #new_text = replace_abbreviations(text)
     new_text = find_words(text)
     reg_expr_letters = r'\w'
     reg_expr_words = r'(\w)+'
@@ -56,14 +54,13 @@ def get_n_grams(text: str, n: int):
     for word in words_list:
         if len(word) >= n:
             for i in range(0, len(word) - n + 1):
-                #reduce(lambda x, y: x + y, word[i: i + n])
-                n_grams_list.append("".join(word[i: i + n]))
+                n_grams_list.append("".join(word[i: i + n]))                            #add n-gram to list
     print(n_grams_list)
     return n_grams_list
 
 def get_top_k_n_grams(text: str, k: int, n: int):
     n_grams_list = get_n_grams(text, n)
-    top_k_n_grams = Counter(n_grams_list).most_common(k)
+    top_k_n_grams = Counter(n_grams_list).most_common(k)                                #count most repeated n-grams and sort it
     return top_k_n_grams
 
 def print_top_k_n_grams(text: str, k: int = 10, n: int = 4):

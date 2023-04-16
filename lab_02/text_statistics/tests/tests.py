@@ -37,8 +37,8 @@ class FindWordsTestCase(unittest.TestCase):
         self.assertEqual(res, "")
 
     def test_find_words_2(self):
-        res = find_words("abc a1b2c3 abc1 1abc 123 1b1")
-        self.assertEqual(res, "abc a1b2c3 abc1 1abc 1b1")
+        res = find_words("abc a1b2c3 abc1 1abc 123 11b1")
+        self.assertEqual(res, "abc a1b2c3 abc1 1abc 11b1")
 
     def test_find_words_3(self):
         res = find_words("adw12dqd2331!")
@@ -127,17 +127,80 @@ class CountLengthOfSentencesTestCase(unittest.TestCase):
         self.assertAlmostEqual(res, 13.333333333333334)
 
     def test_count_len_of_sent_4(self):
-        res = count_length_of_sentences("")
-        self.assertEqual(res, 0)
+        res = count_length_of_sentences("Ryan Gosling in Drive. This is mr. Ryan Gosling!")
+        self.assertEqual(res, 4.5)
 
     def test_count_len_of_sent_5(self):
-        res = count_length_of_sentences("")
+        res = count_length_of_sentences("Top G always wake up at 6 a.m.!")
+        self.assertEqual(res, 8)
+
+class CountLengthOfWordsTestCase(unittest.TestCase):
+    def test_count_len_of_words_1(self):
+        res = count_length_of_words("")
         self.assertEqual(res, 0)
+
+    def test_count_len_of_words_2(self):
+        res = count_length_of_words("How would you rate this girl from 1 to 10?")
+        self.assertEqual(res, 3.625)
+
+    def test_count_len_of_words_3(self):
+        res = count_length_of_words("a1b2c3 123 111aaa abcd")
+        self.assertEqual(res, 5.333333333333333)
+
+    def test_count_len_of_words_4(self):
+        res = count_length_of_words("I am Eikichi Onizuka, I am 22 years old. Single.")
+        self.assertEqual(res, 3.7777777777777777)
+
+    def test_count_len_of_words_5(self):
+        res = count_length_of_words("Top G always goes to bed at 11 p.m.!")
+        self.assertEqual(res, 2.5555555555555554)
+
+class GetNGramsTestCase(unittest.TestCase):
+    def test_get_n_grams_1(self):
+        res = get_n_grams("", 0)
+        self.assertEqual(res, [])
+
+    def test_get_n_grams_2(self):
+        res = get_n_grams("Hello, World!", 2)
+        self.assertEqual(res, ['He', 'el', 'll', 'lo', 'Wo', 'or', 'rl', 'ld'])
+
+    def test_get_n_grams_3(self):
+        res = get_n_grams("Hello, World!", 10)
+        self.assertEqual(res, [])
+
+    def test_get_n_grams_4(self):
+        res = get_n_grams("abc abcde abcde1 12345 a12345", 5)
+        self.assertEqual(res, ['abcde', 'abcde', 'bcde1', 'a1234', '12345'])
+
+    def test_get_n_grams_5(self):
+        res = get_n_grams("dattebayo", 4)
+        self.assertEqual(res, ['datt', 'atte', 'tteb', 'teba', 'ebay', 'bayo'])
+
+class GetTopKNGramsTestCase(unittest.TestCase):
+    def test_get_top_k_n_grams_1(self):
+        res = get_top_k_n_grams("", 3, 2)
+        self.assertEqual(res, [])
+
+    def test_get_top_k_n_grams_2(self):
+        res = get_top_k_n_grams("abc abcde abcde1 12345 a12345", 3, 2)
+        self.assertEqual(res, [('ab', 3), ('bc', 3), ('cd', 2)])
+
+    def test_get_top_k_n_grams_3(self):
+        res = get_top_k_n_grams("abcde,,, a1b2c3!!! a1b2c3d4e5::: 123... abc??? a1?!?!?!", 10, 2)
+        self.assertEqual(res, [('a1', 3), ('ab', 2), 
+                               ('bc', 2), ('1b', 2), 
+                               ('b2', 2), ('2c', 2), 
+                               ('c3', 2), ('cd', 1), 
+                               ('de', 1), ('3d', 1)])
+
+    def test_get_top_k_n_grams_4(self):
+        res = get_top_k_n_grams("abc abcd abc abcde abc abcdef", 15, 3)
+        self.assertEqual(res, [('abc', 6), ('bcd', 3), ('cde', 2), ('def', 1)])
+
+    def test_get_top_k_n_grams_5(self):
+        res = get_top_k_n_grams("a", 100, 100)
+        self.assertEqual(res, [])
 
 if __name__ == "__main__":
     unittest.main()
         
-
-
-
-#Nobody believes in you! You have lost again, and again, and again! The lights are cut off, but you still are looking at your dream, reviewing it every day and say to yourself: It is not over until I win!!!

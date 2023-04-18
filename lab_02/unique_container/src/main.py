@@ -1,0 +1,38 @@
+from unique_container.src.cli import CLI
+
+COMMANDS_INFO = """
+    add <key> [key, …] – add one or more elements to the container (if the element is already in there then don’t add)
+    remove <key> – delete key from container
+    find <key> [key, …] – check if the element is presented in the container, print each found or “No such elements” if nothing is
+    list – print all elements of container
+    grep <regex> – check the value in the container by regular expression, print each found or “No such elements” if nothing is
+    save/load – save container to file/load container from file
+    switch – switches to another user
+"""
+
+def print_possible_commands():
+    print("Possible Commands:", COMMANDS_INFO)
+
+def start_application():
+    print(f"""
+        Container of Unique Elements CLI Program.
+        Possible Commands: {COMMANDS_INFO} 
+    """)
+
+    cli = CLI()
+
+    possible_commands = ["add", "remove", "find", "list", "grep", "save", "load", "switch"]
+
+    cli.add_command("help", print_possible_commands)
+
+    while True:
+        cli.parse_command()
+
+def main():
+    try:
+        start_application()
+    except KeyboardInterrupt:
+        print("\nSee You Later!")
+
+if __name__ == "__main__":
+    main()

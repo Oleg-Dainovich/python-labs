@@ -1,28 +1,35 @@
-class UniqueContainer:
-    __username: str
-    __container: set[str]
-    __filename: str
+import re
+import pickle
 
-    def __init__(self):
-        pass
+class UniqueContainer:
+    _username: str
+    _container: set[str]
+    _filename: str
+
+    def __init__(self, username: str):
+        self._username = username
+        self._filename = f"{username.dmp}"
 
     def add(self, key: str):                            # user need to be able to input several keys 
-        pass
+        self._container.add(key)
 
     def remove(self, key: str):
-        pass
+        self._container.remove(key)
 
     def find(self, key:str):                            # user need to be able to input several keys
-        pass
+        return key in self._container
 
     def list(self):
-        pass
+        return list(self._container)
 
     def grep(self, regex):
-        pass
+        return list(filter(lambda key: re.match(regex, key), self._container))
 
     def save(self):
-        pass
+        with open(self._filename, "wb") as file:
+            pickle.dump(self._container, file)
 
     def load(self):
-        pass
+        with open(self._filename, "rb") as file:
+            loaded_set = pickle.load(file)
+            self._container = self._container | loaded_set

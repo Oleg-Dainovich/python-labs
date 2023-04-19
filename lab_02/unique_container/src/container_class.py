@@ -4,12 +4,12 @@ import os
 
 class UniqueContainer:
     _username: str
-    _container: set[str]
+    _container: set[str] = set()
     _filename: str
 
     def __init__(self, username: str):
         self._username = username
-        self._filename = f"{username.dmp}"
+        self._filename = f"{username}.dmp"
 
     def add(self, key: str):                            # user need to be able to input several keys 
         self._container.add(key)

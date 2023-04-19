@@ -1,5 +1,5 @@
 import re
-from collections import Counter
+from collections import defaultdict
 
 ABBREVIATIONS = (
     ' etc.', ' vs.', ' a.d.', ' b.c.', ' a.m.', ' p.m.', ' jr.',
@@ -60,8 +60,11 @@ def get_n_grams(text: str, n: int):
 
 def get_top_k_n_grams(text: str, k: int, n: int):
     n_grams_list = get_n_grams(text, n)
-    top_k_n_grams = Counter(n_grams_list).most_common(k)                                #count most repeated n-grams and sort it
-    return top_k_n_grams
+    top_k_n_grams = defaultdict(int)
+    for n_gram in n_grams_list:
+        top_k_n_grams[n_gram] += 1
+    #top_k_n_grams = Counter(n_grams_list).most_common(k)                                #count most repeated n-grams and sort it
+    return sorted(top_k_n_grams.items())
 
 def print_top_k_n_grams(text: str, k: int = 10, n: int = 4):
     top_k_n_grams = get_top_k_n_grams(text, k, n)

@@ -29,14 +29,21 @@ def start_application():
         cli.add_command(command, getattr(controller, command))
     cli.add_command("help", print_possible_commands)
 
-    while True:
-        cli.parse_command()
+
+    try:
+        while True:
+            cli.parse_command()
+    except KeyboardInterrupt:
+        print("")
+        controller._ask_for_save()
+        print("\nSee You Later!")
+
 
 def main():
-    try:
-        start_application()
-    except KeyboardInterrupt:
-        print("\nSee You Later!")
+    #try:
+    start_application()
+    #except KeyboardInterrupt:
+    #    print("\nSee You Later!")
 
 if __name__ == "__main__":
     main()

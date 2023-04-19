@@ -94,5 +94,8 @@ class ContainerController:
         self._ask_for_load()
 
     def _ask_for_load(self):
-        pass
+        answer = input("Would you like to load container? (y/n): ")
+        if answer.lower() in ["y", "yes"]:
+            self._container_class.load()
+            
     

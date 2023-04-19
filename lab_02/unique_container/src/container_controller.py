@@ -87,8 +87,9 @@ class ContainerController:
     def switch(self, args = None):
         if self._container_class:
             self._ask_for_save()
+            self._container_class._container.clear()
 
-        username = input("Enter new username: ")
+        username = input("Enter username: ")
         self._container_class = UniqueContainer(username)
 
         self._ask_for_load()

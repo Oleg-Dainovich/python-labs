@@ -1,5 +1,6 @@
 import re
 import pickle
+import os
 
 class UniqueContainer:
     _username: str
@@ -33,3 +34,6 @@ class UniqueContainer:
         with open(self._filename, "rb") as file:
             loaded_set = pickle.load(file)
             self._container = self._container | loaded_set
+
+    def is_exist(self):
+        return os.path.exists(self._filename)

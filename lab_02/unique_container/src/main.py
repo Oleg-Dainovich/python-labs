@@ -1,4 +1,5 @@
-from unique_container.src.cli import CLI
+from cli import CLI
+from container_controller import ContainerController
 
 COMMANDS_INFO = """
     add <key> [key, …] – add one or more elements to the container (if the element is already in there then don’t add)
@@ -15,14 +16,17 @@ def print_possible_commands():
 
 def start_application():
     print(f"""
-        Container of Unique Elements CLI Program.
+    Container of Unique Elements CLI Program.
+    
         Possible Commands: {COMMANDS_INFO} 
     """)
 
+    controller = ContainerController()
     cli = CLI()
 
     possible_commands = ["add", "remove", "find", "list", "grep", "save", "load", "switch"]
-
+    for command in possible_commands:
+        cli.add_command(command, getattr(controller, command))
     cli.add_command("help", print_possible_commands)
 
     while True:

@@ -1,7 +1,3 @@
 FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY . .
-
-CMD ["python3", "main.py"]
+COPY ./src /app
+CMD python /app/main.py

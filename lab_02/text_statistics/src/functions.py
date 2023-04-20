@@ -63,8 +63,8 @@ def get_top_k_n_grams(text: str, k: int, n: int):
     top_k_n_grams = defaultdict(int)
     for n_gram in n_grams_list:
         top_k_n_grams[n_gram] += 1
-    #top_k_n_grams = Counter(n_grams_list).most_common(k)                                #count most repeated n-grams and sort it
-    return sorted(top_k_n_grams.items())
+    #top_k_n_grams = Counter(n_grams_list).most_common(k)                               #count most repeated n-grams and sort it
+    return sorted(top_k_n_grams.items(), key = lambda item: item[1], reverse=True)      #sort dict by value
 
 def print_top_k_n_grams(text: str, k: int = 10, n: int = 4):
     top_k_n_grams = get_top_k_n_grams(text, k, n)

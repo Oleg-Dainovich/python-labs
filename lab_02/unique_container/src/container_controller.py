@@ -69,11 +69,14 @@ class ContainerController:
 
     def save(self, args):
         self._container_class.save()
-        print('Saved successfully')
+        print("Saved successfully.")
 
     def load(self, args):
-        self._container_class.load()
-        print('Loaded successfully')
+        try:
+            self._container_class.load()
+            print("Loaded successfully.")
+        except FileNotFoundError:
+            print("File not found.")
 
     def exit(self, args):
         self._ask_for_save()

@@ -1,0 +1,257 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "count_sentences",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_non_declarative_sentences",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_length_of_sentences",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_length_of_words",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "print_top_k_n_grams",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "replace_abbreviations",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def replace_abbreviations(text: str):\n    new_text = text\n    for abbreviation in ABBREVIATIONS:\n        new_text = re.sub(abbreviation, re.sub(r'\\.', \" \", abbreviation), new_text)     #change dots to spaces in abbreviations\n    return new_text\ndef find_words(text: str):\n    words_list = re.findall(r'\\w*[a-zA-Z]\\w*', text)                                    #remove numbers and punctuation\n    new_text = \" \".join(words_list)                                                     #join list to string\n    return new_text\ndef count_sentences(text: str):",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "find_words",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def find_words(text: str):\n    words_list = re.findall(r'\\w*[a-zA-Z]\\w*', text)                                    #remove numbers and punctuation\n    new_text = \" \".join(words_list)                                                     #join list to string\n    return new_text\ndef count_sentences(text: str):\n    new_text = replace_abbreviations(text)\n    reg_expr = r'(\\.|\\?|!)+'\n    return len(re.findall(reg_expr, new_text))\ndef count_non_declarative_sentences(text: str):\n    new_text = replace_abbreviations(text)",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_sentences",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def count_sentences(text: str):\n    new_text = replace_abbreviations(text)\n    reg_expr = r'(\\.|\\?|!)+'\n    return len(re.findall(reg_expr, new_text))\ndef count_non_declarative_sentences(text: str):\n    new_text = replace_abbreviations(text)\n    reg_expr = r'\\.+'\n    return count_sentences(text) - len(re.findall(reg_expr, new_text))\ndef count_length_of_sentences(text: str):\n    new_text = find_words(text)",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_non_declarative_sentences",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def count_non_declarative_sentences(text: str):\n    new_text = replace_abbreviations(text)\n    reg_expr = r'\\.+'\n    return count_sentences(text) - len(re.findall(reg_expr, new_text))\ndef count_length_of_sentences(text: str):\n    new_text = find_words(text)\n    reg_expr = r'(\\w)+'\n    try:\n        return len(re.findall(reg_expr, new_text)) / count_sentences(text)\n    except ZeroDivisionError:",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_length_of_sentences",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def count_length_of_sentences(text: str):\n    new_text = find_words(text)\n    reg_expr = r'(\\w)+'\n    try:\n        return len(re.findall(reg_expr, new_text)) / count_sentences(text)\n    except ZeroDivisionError:\n        return 0\ndef count_length_of_words(text: str):\n    new_text = find_words(text)\n    reg_expr_letters = r'\\w'",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "count_length_of_words",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def count_length_of_words(text: str):\n    new_text = find_words(text)\n    reg_expr_letters = r'\\w'\n    reg_expr_words = r'(\\w)+'\n    try:\n        return len(re.findall(reg_expr_letters, new_text)) / len(re.findall(reg_expr_words, new_text))\n    except ZeroDivisionError:\n        return 0\ndef get_n_grams(text: str, n: int):\n    words_list = re.findall(r'\\w*[a-zA-Z]\\w*', text)",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_n_grams",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def get_n_grams(text: str, n: int):\n    words_list = re.findall(r'\\w*[a-zA-Z]\\w*', text)\n    n_grams_list: list[str] = []\n    for word in words_list:\n        if len(word) >= n:\n            for i in range(0, len(word) - n + 1):\n                n_grams_list.append(\"\".join(word[i: i + n]))                            #add n-gram to list\n    print(n_grams_list)\n    return n_grams_list\ndef get_top_k_n_grams(text: str, k: int, n: int):",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_top_k_n_grams",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def get_top_k_n_grams(text: str, k: int, n: int):\n    n_grams_list = get_n_grams(text, n)\n    top_k_n_grams = Counter(n_grams_list).most_common(k)                                #count most repeated n-grams and sort it\n    return top_k_n_grams\ndef print_top_k_n_grams(text: str, k: int = 10, n: int = 4):\n    top_k_n_grams = get_top_k_n_grams(text, k, n)\n    print(\"Top\", k, \"N-grams:\")\n    for n_gram, amount in top_k_n_grams:\n        print(\"N-gram:\", n_gram, \"|\", amount, \"appearance(s)\")\n    return",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "print_top_k_n_grams",
+        "kind": 2,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "def print_top_k_n_grams(text: str, k: int = 10, n: int = 4):\n    top_k_n_grams = get_top_k_n_grams(text, k, n)\n    print(\"Top\", k, \"N-grams:\")\n    for n_gram, amount in top_k_n_grams:\n        print(\"N-gram:\", n_gram, \"|\", amount, \"appearance(s)\")\n    return",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "ABBREVIATIONS",
+        "kind": 5,
+        "importPath": "text_statistics.src.functions",
+        "description": "text_statistics.src.functions",
+        "peekOfCode": "ABBREVIATIONS = (\n    ' etc.', ' vs.', ' a.d.', ' b.c.', ' a.m.', ' p.m.', ' jr.',\n    ' sr.', ' v.i.p.', ' p.s.', ' p.p.s.', ' smth.', ' smb.', ' yr.',\n    ' jan.', ' feb.', ' mar.', ' jun.', ' jul.', ' aug.', ' sep.',\n    ' oct.', ' nov.', ' dec.', ' mon.', ' tue.', ' wed.', ' thu.',\n    ' fri.', ' sat.', ' sun.', ' mr.', ' mrs.', ' ms.', ' dr.',\n    ' st.', ' inc.', ' corp.', ' lbs.', ' e.g.', ' i.e.', ' in.'  \n)\ndef replace_abbreviations(text: str):\n    new_text = text",
+        "detail": "text_statistics.src.functions",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "text_statistics.src.main",
+        "description": "text_statistics.src.main",
+        "peekOfCode": "text = input('Enter the text: ')\ntext = text.lower()\nprint('Amount of sentences in the text:', count_sentences(text))\nprint('Amount of non-declarative sentences in the text:', count_non_declarative_sentences(text))\nprint('Average length of the sentence:', count_length_of_sentences(text))\nprint('Average length of the word:', count_length_of_words(text))\ntry:\n    k, n = map(int, input('Enter K and N for N-grams: ').split())\n    print_top_k_n_grams(text, k, n)\nexcept ValueError:",
+        "detail": "text_statistics.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "text_statistics.src.main",
+        "description": "text_statistics.src.main",
+        "peekOfCode": "text = text.lower()\nprint('Amount of sentences in the text:', count_sentences(text))\nprint('Amount of non-declarative sentences in the text:', count_non_declarative_sentences(text))\nprint('Average length of the sentence:', count_length_of_sentences(text))\nprint('Average length of the word:', count_length_of_words(text))\ntry:\n    k, n = map(int, input('Enter K and N for N-grams: ').split())\n    print_top_k_n_grams(text, k, n)\nexcept ValueError:\n    print(\"Incorrect Input\")",
+        "detail": "text_statistics.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "ReplaceAbbreviationsTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class ReplaceAbbreviationsTestCase(unittest.TestCase):\n    def test_abbr_1(self):\n        res = replace_abbreviations(\"Hello, World!\")\n        self.assertEqual(res, \"Hello, World!\")\n    def test_abbr_2(self):\n        res = replace_abbreviations(\"Hello, mr. Bond...\")\n        self.assertEqual(res, \"Hello, mr  Bond...\")\n    def test_abbr_3(self):\n        res = replace_abbreviations(\"Now is 11 p.m..\")\n        self.assertEqual(res, \"Now is 11 p m .\")",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "FindWordsTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class FindWordsTestCase(unittest.TestCase):\n    def test_find_words_1(self):\n        res = find_words(\"\")\n        self.assertEqual(res, \"\")\n    def test_find_words_2(self):\n        res = find_words(\"abc a1b2c3 abc1 1abc 123 11b1\")\n        self.assertEqual(res, \"abc a1b2c3 abc1 1abc 11b1\")\n    def test_find_words_3(self):\n        res = find_words(\"adw12dqd2331!\")\n        self.assertEqual(res, \"adw12dqd2331\")",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "CountSentencesTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class CountSentencesTestCase(unittest.TestCase):\n    def test_count_sent_1(self):\n        res = count_sentences(\"What's in the box?\")\n        self.assertEqual(res, 1)\n    def test_count_sent_2(self):\n        res = count_sentences(\"Sentence\")\n        self.assertEqual(res, 0)\n    def test_count_sent_3(self):\n        res = count_sentences(\"Yeah buddy!Light weight baby!!!!!\")\n        self.assertEqual(res, 2)",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "CountNonDeclarativeSetencesTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class CountNonDeclarativeSetencesTestCase(unittest.TestCase):\n    def test_count_non_decl_sent_1(self):\n        res = count_non_declarative_sentences(\"\")\n        self.assertEqual(res, 0)\n    def test_count_non_decl_sent_2(self):\n        res = count_non_declarative_sentences(\"Man, this party stinks. I fucking hate these people!\")\n        self.assertEqual(res, 1)\n    def test_count_non_decl_sent_3(self):\n        res = count_non_declarative_sentences(\"See you space cowboy...\")\n        self.assertEqual(res, 0)",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "CountLengthOfSentencesTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class CountLengthOfSentencesTestCase(unittest.TestCase):\n    def test_count_len_of_sent_1(self):\n        res = count_length_of_sentences(\"\")\n        self.assertEqual(res, 0)\n    def test_count_len_of_sent_2(self):\n        res = count_length_of_sentences(\"Hello, World.\")\n        self.assertEqual(res, 2)\n    def test_count_len_of_sent_3(self):\n        res = count_length_of_sentences(\"\"\"Nobody believes in you! \n        You have lost again, and again, and again. ",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "CountLengthOfWordsTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class CountLengthOfWordsTestCase(unittest.TestCase):\n    def test_count_len_of_words_1(self):\n        res = count_length_of_words(\"\")\n        self.assertEqual(res, 0)\n    def test_count_len_of_words_2(self):\n        res = count_length_of_words(\"How would you rate this girl from 1 to 10?\")\n        self.assertEqual(res, 3.625)\n    def test_count_len_of_words_3(self):\n        res = count_length_of_words(\"a1b2c3 123 111aaa abcd\")\n        self.assertEqual(res, 5.333333333333333)",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "GetNGramsTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class GetNGramsTestCase(unittest.TestCase):\n    def test_get_n_grams_1(self):\n        res = get_n_grams(\"\", 0)\n        self.assertEqual(res, [])\n    def test_get_n_grams_2(self):\n        res = get_n_grams(\"Hello, World!\", 2)\n        self.assertEqual(res, ['He', 'el', 'll', 'lo', 'Wo', 'or', 'rl', 'ld'])\n    def test_get_n_grams_3(self):\n        res = get_n_grams(\"Hello, World!\", 10)\n        self.assertEqual(res, [])",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "GetTopKNGramsTestCase",
+        "kind": 6,
+        "importPath": "text_statistics.tests.tests",
+        "description": "text_statistics.tests.tests",
+        "peekOfCode": "class GetTopKNGramsTestCase(unittest.TestCase):\n    def test_get_top_k_n_grams_1(self):\n        res = get_top_k_n_grams(\"\", 3, 2)\n        self.assertEqual(res, [])\n    def test_get_top_k_n_grams_2(self):\n        res = get_top_k_n_grams(\"abc abcde abcde1 12345 a12345\", 3, 2)\n        self.assertEqual(res, [('ab', 3), ('bc', 3), ('cd', 2)])\n    def test_get_top_k_n_grams_3(self):\n        res = get_top_k_n_grams(\"abcde,,, a1b2c3!!! a1b2c3d4e5::: 123... abc??? a1?!?!?!\", 10, 2)\n        self.assertEqual(res, [('a1', 3), ('ab', 2), ",
+        "detail": "text_statistics.tests.tests",
+        "documentation": {}
+    },
+    {
+        "label": "UniqueContainer",
+        "kind": 6,
+        "importPath": "unique_container.src.container_class",
+        "description": "unique_container.src.container_class",
+        "peekOfCode": "class UniqueContainer:\n    __username: str\n    __container: set[str]\n    __filename: str\n    def __init__(self):\n        pass\n    def add(self, key: str):                            # user need to be able to input several keys \n        pass\n    def remove(self, key: str):\n        pass",
+        "detail": "unique_container.src.container_class",
+        "documentation": {}
+    }
+]

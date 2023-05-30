@@ -3,7 +3,7 @@ import inspect
 from collections.abc import Iterator
 from types import ModuleType, CellType, CodeType, MethodType, FunctionType
 
-from .constants import BASE_TYPE, UNSERIALIZED_TYPES, UNSERIALIZED_ATTRIBUTES
+from constants import BASE_TYPE, UNSERIALIZED_TYPES, UNSERIALIZED_ATTRIBUTES
 
 
 class Encoder:

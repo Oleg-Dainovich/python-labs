@@ -1,4 +1,3 @@
-from src.encoder import E
 from src.encoder.encoder import Encoder, Decoder
 
 class A:

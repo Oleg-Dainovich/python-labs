@@ -8,10 +8,14 @@ setup (
         "src.encoder",
         "src.serializers"
     ],
-
+    entry_points={
+        "console_scripts": [
+            "custom-serialize = src.custom_serializer:main"
+        ]
+    },
     url="https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     license="",
     author="Oleg-Dainovich",
-    author_email="",
+    author_email="olegdainovich@gmail.com",
     description="",
 )

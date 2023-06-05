@@ -20,9 +20,13 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+#app_name = 'zooshop'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('zooshop.urls', namespace='zooshop')),
+    path('cart/', include('cart.urls', namespace='cart')),
+    #path('orders/', include('orders.urls', namespace='orders')),
+    path('', include(('zooshop.urls','zooshop'), namespace='zooshop')),
 ]
 
 if settings.DEBUG:

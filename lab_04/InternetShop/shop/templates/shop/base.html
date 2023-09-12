@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}ЗооМагазин{% endblock %}</title>
+    <link href="{% static '/css/base.css' %}" rel="stylesheet" />
+    <link href="{% static '/css/list.css' %}" rel="stylesheet" />
+    <link href="{% static '/css/detail.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <a href="/" class="logo"></a>
+      
+    {% if user.is_authenticated %}    <a>User: {{ user.username }}</a><a href="/accounts/logout/">Log out</a>
+    {%else%}
+    <a href="/home/">Log in</a>
+{% endif %}
+      {% with total_items=cart|length %} {% if cart|length >= 0 %}
+      <a class="cart_icon" href="{% url 'cart:cart_detail' %}">
+        Корзина&#9;|&#9;{{ total_items }}
+        {% endif %} {% endwith %}
+      </a>
+    </div>
+    <div id="content">{% block content %} {% endblock %}</div>
+    <!-- <a href="/accounts/logout/">Log out</a><a href="/home/">Log in</a>
+    {% if user.is_authenticated %}    <a>{{ user.username }}</a>
+{% endif %} -->
+  </body>
+</html>

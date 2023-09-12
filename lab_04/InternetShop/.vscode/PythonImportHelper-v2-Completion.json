@@ -1,0 +1,1075 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "isExtraImport": true,
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "users",
+        "description": "users",
+        "isExtraImport": true,
+        "detail": "users",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "importPath": "cart.cart",
+        "description": "cart.cart",
+        "isExtraImport": true,
+        "detail": "cart.cart",
+        "documentation": {}
+    },
+    {
+        "label": "CartAddProductForm",
+        "importPath": "cart.forms",
+        "description": "cart.forms",
+        "isExtraImport": true,
+        "detail": "cart.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic.edit",
+        "description": "django.views.generic.edit",
+        "isExtraImport": true,
+        "detail": "django.views.generic.edit",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "CartConfig",
+        "kind": 6,
+        "importPath": "cart.apps",
+        "description": "cart.apps",
+        "peekOfCode": "class CartConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'cart'",
+        "detail": "cart.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "kind": 6,
+        "importPath": "cart.cart",
+        "description": "cart.cart",
+        "peekOfCode": "class Cart(object):\n    def __init__(self, request):\n        \"\"\"\n        Инициализируем корзину\n        \"\"\"\n        self.session = request.session\n        cart = self.session.get(settings.CART_SESSION_ID)\n        if not cart:\n            # save an empty cart in the session\n            cart = self.session[settings.CART_SESSION_ID] = {}",
+        "detail": "cart.cart",
+        "documentation": {}
+    },
+    {
+        "label": "cart",
+        "kind": 2,
+        "importPath": "cart.context_processors",
+        "description": "cart.context_processors",
+        "peekOfCode": "def cart(request):\n    return {'cart': Cart(request)}",
+        "detail": "cart.context_processors",
+        "documentation": {}
+    },
+    {
+        "label": "CartAddProductForm",
+        "kind": 6,
+        "importPath": "cart.forms",
+        "description": "cart.forms",
+        "peekOfCode": "class CartAddProductForm(forms.Form):\n    quantity = forms.TypedChoiceField(choices=PRODUCT_QUANTITY_CHOICES, coerce=int)\n    update = forms.BooleanField(required=False, initial=False, widget=forms.HiddenInput)",
+        "detail": "cart.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCT_QUANTITY_CHOICES",
+        "kind": 5,
+        "importPath": "cart.forms",
+        "description": "cart.forms",
+        "peekOfCode": "PRODUCT_QUANTITY_CHOICES = [(i, str(i)) for i in range(1, 21)]\nclass CartAddProductForm(forms.Form):\n    quantity = forms.TypedChoiceField(choices=PRODUCT_QUANTITY_CHOICES, coerce=int)\n    update = forms.BooleanField(required=False, initial=False, widget=forms.HiddenInput)",
+        "detail": "cart.forms",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "cart.urls",
+        "description": "cart.urls",
+        "peekOfCode": "app_name = \"cart\"\nurlpatterns = [\n    path('', views.cart_detail, name='cart_detail'),\n    path('add/<int:product_id>/', views.cart_add, name='cart_add'),\n    path('remove/<int:product_id>/', views.cart_remove, name='cart_remove'),\n]",
+        "detail": "cart.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "cart.urls",
+        "description": "cart.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.cart_detail, name='cart_detail'),\n    path('add/<int:product_id>/', views.cart_add, name='cart_add'),\n    path('remove/<int:product_id>/', views.cart_remove, name='cart_remove'),\n]",
+        "detail": "cart.urls",
+        "documentation": {}
+    },
+    {
+        "label": "cart_add",
+        "kind": 2,
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "peekOfCode": "def cart_add(request, product_id):\n    cart = Cart(request)\n    product = get_object_or_404(Product, id=product_id)\n    form = CartAddProductForm(request.POST)\n    if form.is_valid():\n        cd = form.cleaned_data\n        cart.add(product=product,\n                 quantity=cd['quantity'],\n                 update_quantity=cd['update'])\n    return redirect('cart:cart_detail')",
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "cart_remove",
+        "kind": 2,
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "peekOfCode": "def cart_remove(request, product_id):\n    cart = Cart(request)\n    product = get_object_or_404(Product, id=product_id)\n    cart.remove(product)\n    return redirect('cart:cart_detail')\ndef cart_detail(request):\n    cart = Cart(request)\n    dog_pic = requests.get(\"https://dog.ceo/api/breeds/image/random\")\n    return render(request, 'cart/detail.html', {'cart': cart,\n                                                'dog': dog_pic.json()['message']})",
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "cart_detail",
+        "kind": 2,
+        "importPath": "cart.views",
+        "description": "cart.views",
+        "peekOfCode": "def cart_detail(request):\n    cart = Cart(request)\n    dog_pic = requests.get(\"https://dog.ceo/api/breeds/image/random\")\n    return render(request, 'cart/detail.html', {'cart': cart,\n                                                'dog': dog_pic.json()['message']})",
+        "detail": "cart.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "myshop.asgi",
+        "description": "myshop.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "myshop.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-)&u!pdgc(#=tr*x$qfzc_j3ugu03t%s9g%aqi*#uq$9vvfjmwc'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-)&u!pdgc(#=tr*x$qfzc_j3ugu03t%s9g%aqi*#uq$9vvfjmwc'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',          # Фреймворк аутентификации и моделей по умолчанию.\n    'django.contrib.contenttypes',  # Django контент-типовая система (даёт разрешения, связанные с моделями).\n    'django.contrib.sessions',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',          # Фреймворк аутентификации и моделей по умолчанию.\n    'django.contrib.contenttypes',  # Django контент-типовая система (даёт разрешения, связанные с моделями).\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',          # Фреймворк аутентификации и моделей по умолчанию.\n    'django.contrib.contenttypes',  # Django контент-типовая система (даёт разрешения, связанные с моделями).\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'shop.apps.ShopConfig',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',          # Фреймворк аутентификации и моделей по умолчанию.\n    'django.contrib.contenttypes',  # Django контент-типовая система (даёт разрешения, связанные с моделями).\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'shop.apps.ShopConfig',\n    'cart',\n    'orders',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',      # Управление сессиями между запросами\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',  # Связывает пользователей, использующих сессии, запросами.\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'myshop.urls'",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "ROOT_URLCONF = 'myshop.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'myshop.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media/')",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media/')\nCART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR, \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media/')\nCART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media/')\nCART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media/')\nCART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')\nCART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CART_SESSION_ID",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "CART_SESSION_ID = 'cart'\nLOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"home\"\nLOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "myshop.settings",
+        "description": "myshop.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/\"",
+        "detail": "myshop.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "myshop.urls",
+        "description": "myshop.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('accounts/', include('django.contrib.auth.urls')),\n    path('home/', include('users.urls')),\n    path('cart/', include('cart.urls', namespace='cart')),\n    path('orders/', include('orders.urls', namespace='orders')),\n    path('', include(('shop.urls','shop'), namespace='shop')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "myshop.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "myshop.wsgi",
+        "description": "myshop.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "myshop.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0001_initial",
+        "description": "orders.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('shop', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Order',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "orders.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItemInline",
+        "kind": 6,
+        "importPath": "orders.admin",
+        "description": "orders.admin",
+        "peekOfCode": "class OrderItemInline(admin.TabularInline):\n    model = OrderItem\n    raw_id_fields = ['product']\nclass OrderAdmin(admin.ModelAdmin):\n    list_display = ['id', 'first_name', 'last_name', 'email',\n                    'address', 'postal_code', 'city',\n                    'created', 'updated']\n    list_filter = ['created', 'updated']\n    inlines = [OrderItemInline]\nadmin.site.register(Order, OrderAdmin)",
+        "detail": "orders.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAdmin",
+        "kind": 6,
+        "importPath": "orders.admin",
+        "description": "orders.admin",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    list_display = ['id', 'first_name', 'last_name', 'email',\n                    'address', 'postal_code', 'city',\n                    'created', 'updated']\n    list_filter = ['created', 'updated']\n    inlines = [OrderItemInline]\nadmin.site.register(Order, OrderAdmin)\nfrom django.contrib import admin\n# Register your models here.",
+        "detail": "orders.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrdersConfig",
+        "kind": 6,
+        "importPath": "orders.apps",
+        "description": "orders.apps",
+        "peekOfCode": "class OrdersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'orders'",
+        "detail": "orders.apps",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreateForm",
+        "kind": 6,
+        "importPath": "orders.forms",
+        "description": "orders.forms",
+        "peekOfCode": "class OrderCreateForm(forms.ModelForm):\n    class Meta:\n        model = Order\n        fields = ['first_name', 'last_name', 'email', 'address', 'postal_code', 'city']",
+        "detail": "orders.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "orders.models",
+        "description": "orders.models",
+        "peekOfCode": "class Order(models.Model):\n    first_name = models.CharField(max_length=50)\n    last_name = models.CharField(max_length=50)\n    email = models.EmailField()\n    address = models.CharField(max_length=250)\n    postal_code = models.CharField(max_length=20)\n    city = models.CharField(max_length=100)\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    paid = models.BooleanField(default=False)",
+        "detail": "orders.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "orders.models",
+        "description": "orders.models",
+        "peekOfCode": "class OrderItem(models.Model):\n    order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE)\n    product = models.ForeignKey(Product, related_name='order_items', on_delete=models.CASCADE)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    quantity = models.PositiveIntegerField(default=1)\n    def __str__(self):\n        return '{}'.format(self.id)\n    def get_cost(self):\n        return self.price * self.quantity\nfrom django.db import models",
+        "detail": "orders.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "orders.urls",
+        "description": "orders.urls",
+        "peekOfCode": "app_name = \"orders\"\nurlpatterns = [\n    path('create/', views.order_create, name='order_create'),\n]",
+        "detail": "orders.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "orders.urls",
+        "description": "orders.urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/', views.order_create, name='order_create'),\n]",
+        "detail": "orders.urls",
+        "documentation": {}
+    },
+    {
+        "label": "order_create",
+        "kind": 2,
+        "importPath": "orders.views",
+        "description": "orders.views",
+        "peekOfCode": "def order_create(request):\n    if not request.user.is_authenticated:\n        return redirect('/home/')\n    cart = Cart(request)\n    if request.method == 'POST':\n        form = OrderCreateForm(request.POST)\n        if form.is_valid():\n            order = form.save()\n            for item in cart:\n                OrderItem.objects.create(order=order,",
+        "detail": "orders.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "shop.migrations.0001_initial",
+        "description": "shop.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(db_index=True, max_length=200)),",
+        "detail": "shop.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryAdmin",
+        "kind": 6,
+        "importPath": "shop.admin",
+        "description": "shop.admin",
+        "peekOfCode": "class CategoryAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug']\n    prepopulated_fields = {'slug': ('name',)}\nadmin.site.register(Category, CategoryAdmin)\nclass ProductAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug', 'price', 'available', 'created', 'updated']\n    list_filter = ['available', 'created', 'updated']\n    list_editable = ['price', 'available']\n    prepopulated_fields = {'slug': ('name',)}\nadmin.site.register(Product, ProductAdmin)",
+        "detail": "shop.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAdmin",
+        "kind": 6,
+        "importPath": "shop.admin",
+        "description": "shop.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug', 'price', 'available', 'created', 'updated']\n    list_filter = ['available', 'created', 'updated']\n    list_editable = ['price', 'available']\n    prepopulated_fields = {'slug': ('name',)}\nadmin.site.register(Product, ProductAdmin)",
+        "detail": "shop.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ShopConfig",
+        "kind": 6,
+        "importPath": "shop.apps",
+        "description": "shop.apps",
+        "peekOfCode": "class ShopConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'shop'",
+        "detail": "shop.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=200, db_index=True)\n    slug = models.SlugField(max_length=200, db_index=True, unique=True)\n    class Meta:\n        ordering = ('name',)\n        verbose_name = 'Категория'\n        verbose_name_plural = 'Категории'\n    def get_absolute_url(self):\n        return reverse('shop:product_list_by_category',\n                       args=[self.slug])",
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "shop.models",
+        "description": "shop.models",
+        "peekOfCode": "class Product(models.Model):\n    category = models.ForeignKey(Category, related_name='products', on_delete=models.CASCADE)\n    name = models.CharField(max_length=200, db_index=True)\n    slug = models.SlugField(max_length=200, db_index=True)\n    image = models.ImageField(upload_to='products/%Y/%m/%d', blank=True)\n    description = models.TextField(blank=True)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    stock = models.PositiveIntegerField()\n    available = models.BooleanField(default=True)\n    created = models.DateTimeField(auto_now_add=True)",
+        "detail": "shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "shop.urls",
+        "description": "shop.urls",
+        "peekOfCode": "app_name = 'shop'\nurlpatterns = [\n    path('', views.product_list, name='product_list'),\n    path('<slug:category_slug>/', views.product_list, name='product_list_by_category'),\n    path('<int:id>/<slug:slug>/', views.product_detail, name='product_detail'),\n]",
+        "detail": "shop.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "shop.urls",
+        "description": "shop.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.product_list, name='product_list'),\n    path('<slug:category_slug>/', views.product_list, name='product_list_by_category'),\n    path('<int:id>/<slug:slug>/', views.product_detail, name='product_detail'),\n]",
+        "detail": "shop.urls",
+        "documentation": {}
+    },
+    {
+        "label": "product_list",
+        "kind": 2,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "def product_list(request, category_slug=None):\n    category = None\n    categories = Category.objects.all()\n    products = Product.objects.filter(available=True)\n    if category_slug:\n        category = get_object_or_404(Category, slug=category_slug)\n        products = products.filter(category=category)\n    r = requests.get('https://catfact.ninja/fact?max_length=100')\n    return render(request, 'shop/product/list.html', {'category': category,\n                                                    'categories': categories,",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_detail",
+        "kind": 2,
+        "importPath": "shop.views",
+        "description": "shop.views",
+        "peekOfCode": "def product_detail(request, id, slug):\n    product = get_object_or_404(Product,\n                                id=id,\n                                slug=slug,\n                                available=True)\n    cart_product_form = CartAddProductForm()\n    return render(request,\n                  'shop/product/detail.html',\n                  {'product': product,'cart_product_form': cart_product_form})",
+        "detail": "shop.views",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "users.urls",
+        "description": "users.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name=\"home\"),\n    path(\"signup/\", views.SignUp.as_view(), name=\"signup\"),\n]",
+        "detail": "users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SignUp",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class SignUp(CreateView):\n    form_class = UserCreationForm\n    success_url = reverse_lazy(\"login\")\n    template_name = \"registration/signup.html\"",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def home(request):\n    if request.user.is_authenticated:\n        return redirect(\"/\")\n    return render(request, 'users/home.html')\nclass SignUp(CreateView):\n    form_class = UserCreationForm\n    success_url = reverse_lazy(\"login\")\n    template_name = \"registration/signup.html\"",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myshop.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
